@@ -16,10 +16,15 @@ export default class MovieApiService {
 
   // ======== search films =========
 
-  fetchMoviesySearch() {
+  fetchMoviesBySearch() {
     return fetch(
       `${VIDEO_BY_SEACH}&query=${this.searchQuery}&language=${this.language}&page=${this.page}`
-    ).then(responce => responce.json());
+    )
+      .then(responce => responce.json())
+      .then(data => {
+        this.incrementPage();
+        return data;
+      });
   }
 
   async fetchPopular() {
