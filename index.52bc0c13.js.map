@@ -1,1 +1,0 @@
-{"mappings":"AAEAA,MACE,kFACAC,MAAKC,GAAQC,QAAQC,IAAIF","sources":["src/index.js"],"sourcesContent":["const API_KEY = `7cb8097836a7a1f4e5c19953961668c8`;\n\nfetch(\n  \"https://api.themoviedb.org/3/search/movie?api_key={API_KEY}&query=Jack+Reacher\"\n).then(data => console.log(data));\n"],"names":["fetch","then","data","console","log"],"version":3,"file":"index.52bc0c13.js.map"}
