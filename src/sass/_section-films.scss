@@ -15,7 +15,11 @@
 			}
 		}
 
-		&__card {
+		&__item:not(:last-child){
+			margin-bottom: 15px;
+		}
+
+		&__item {
 			width: 100%;
 
 			@include mq(tablet){
@@ -27,6 +31,7 @@
 				flex-basis: calc(100%/3 - 30px);
 			}
 		}
+		
 
 		&__img {
 			width: 100%;

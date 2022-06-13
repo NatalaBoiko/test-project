@@ -2,22 +2,24 @@
   "name": "filmoteka-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://NatalaBoiko.github.io/test-project",
+  "homepage": "https://annnacaesar.github.io/filmoteka-project",
   "scripts": {
-    "start": "parcel src/*.html --open ",
-    "build": "parcel build src/*.html --public-url /test-project/"
+    "start": "parcel src/*.html ",
+    "build": "parcel build src/*.html --public-url /filmoteka-project/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NatalaBoiko/test-project.git"
+    "url": "git+https://github.com/annnacaesar/filmoteka-project.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NatalaBoiko/test-project/issues"
+    "url": "https://github.com/annnacaesar/filmoteka-project/issues"
   },
   "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.10.3"
   },
